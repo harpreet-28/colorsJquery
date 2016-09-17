@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus voluptates molestiae maiores facilis enim dolores, ut, quam necessitatibus quos provident, nulla. Quasi laudantium, libero eius in error, quos doloremque accusantium?</p>
+    <button id="button">BUTTON</button>
+    <script src="jquery-3.1.0.js"></script>
+    <script>
+    $(function() {
+        $("#button").click(function() {
+            $("#para").css("color", "red");
+            $("#para").css("backgroundColor", "pink");
+        });
+    });
+    </script>
+</body>
+
+</html>
